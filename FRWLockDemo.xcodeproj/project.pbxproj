@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9903141E1DE40DAB00717672 /* FRWNSConditionLockDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9903141D1DE40DAB00717672 /* FRWNSConditionLockDemo.m */; };
+		990314211DE4174700717672 /* FRWPthreadMutexLockDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 990314201DE4174700717672 /* FRWPthreadMutexLockDemo.m */; };
+		990314241DE41C7100717672 /* FRWPthreadMutexRWLockDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 990314231DE41C7100717672 /* FRWPthreadMutexRWLockDemo.m */; };
+		990314271DE44E0000717672 /* 1.doc in Resources */ = {isa = PBXBuildFile; fileRef = 990314261DE44E0000717672 /* 1.doc */; };
+		9903142A1DE44FDB00717672 /* FRWPOSIXConditionsDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 990314291DE44FDB00717672 /* FRWPOSIXConditionsDemo.m */; };
 		99ABAD2B1DE2F65600C33C96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99ABAD2A1DE2F65600C33C96 /* main.m */; };
 		99ABAD2E1DE2F65600C33C96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99ABAD2D1DE2F65600C33C96 /* AppDelegate.m */; };
 		99ABAD311DE2F65600C33C96 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99ABAD301DE2F65600C33C96 /* ViewController.m */; };
@@ -15,6 +20,7 @@
 		99ABAD391DE2F65600C33C96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99ABAD371DE2F65600C33C96 /* LaunchScreen.storyboard */; };
 		99ABAD441DE2F65600C33C96 /* FRWLockDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99ABAD431DE2F65600C33C96 /* FRWLockDemoTests.m */; };
 		99ABAD4F1DE2F65600C33C96 /* FRWLockDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99ABAD4E1DE2F65600C33C96 /* FRWLockDemoUITests.m */; };
+		99ABAD5F1DE2F6B700C33C96 /* FRWNSConditionDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 99ABAD5E1DE2F6B700C33C96 /* FRWNSConditionDemo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9903141C1DE40DAB00717672 /* FRWNSConditionLockDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRWNSConditionLockDemo.h; sourceTree = "<group>"; };
+		9903141D1DE40DAB00717672 /* FRWNSConditionLockDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRWNSConditionLockDemo.m; sourceTree = "<group>"; };
+		9903141F1DE4174700717672 /* FRWPthreadMutexLockDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRWPthreadMutexLockDemo.h; sourceTree = "<group>"; };
+		990314201DE4174700717672 /* FRWPthreadMutexLockDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRWPthreadMutexLockDemo.m; sourceTree = "<group>"; };
+		990314221DE41C7100717672 /* FRWPthreadMutexRWLockDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRWPthreadMutexRWLockDemo.h; sourceTree = "<group>"; };
+		990314231DE41C7100717672 /* FRWPthreadMutexRWLockDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRWPthreadMutexRWLockDemo.m; sourceTree = "<group>"; };
+		990314261DE44E0000717672 /* 1.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.doc; sourceTree = "<group>"; };
+		990314281DE44FDB00717672 /* FRWPOSIXConditionsDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRWPOSIXConditionsDemo.h; sourceTree = "<group>"; };
+		990314291DE44FDB00717672 /* FRWPOSIXConditionsDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRWPOSIXConditionsDemo.m; sourceTree = "<group>"; };
 		99ABAD261DE2F65600C33C96 /* FRWLockDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FRWLockDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99ABAD2A1DE2F65600C33C96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		99ABAD2C1DE2F65600C33C96 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +66,8 @@
 		99ABAD4A1DE2F65600C33C96 /* FRWLockDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FRWLockDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99ABAD4E1DE2F65600C33C96 /* FRWLockDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FRWLockDemoUITests.m; sourceTree = "<group>"; };
 		99ABAD501DE2F65600C33C96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99ABAD5D1DE2F6B700C33C96 /* FRWNSConditionDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRWNSConditionDemo.h; sourceTree = "<group>"; };
+		99ABAD5E1DE2F6B700C33C96 /* FRWNSConditionDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRWNSConditionDemo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,9 +122,11 @@
 				99ABAD2D1DE2F65600C33C96 /* AppDelegate.m */,
 				99ABAD2F1DE2F65600C33C96 /* ViewController.h */,
 				99ABAD301DE2F65600C33C96 /* ViewController.m */,
+				99ABAD5C1DE2F67000C33C96 /* NSConditionLock */,
 				99ABAD321DE2F65600C33C96 /* Main.storyboard */,
 				99ABAD351DE2F65600C33C96 /* Assets.xcassets */,
 				99ABAD371DE2F65600C33C96 /* LaunchScreen.storyboard */,
+				990314261DE44E0000717672 /* 1.doc */,
 				99ABAD3A1DE2F65600C33C96 /* Info.plist */,
 				99ABAD291DE2F65600C33C96 /* Supporting Files */,
 			);
@@ -138,6 +157,23 @@
 				99ABAD501DE2F65600C33C96 /* Info.plist */,
 			);
 			path = FRWLockDemoUITests;
+			sourceTree = "<group>";
+		};
+		99ABAD5C1DE2F67000C33C96 /* NSConditionLock */ = {
+			isa = PBXGroup;
+			children = (
+				99ABAD5D1DE2F6B700C33C96 /* FRWNSConditionDemo.h */,
+				99ABAD5E1DE2F6B700C33C96 /* FRWNSConditionDemo.m */,
+				9903141C1DE40DAB00717672 /* FRWNSConditionLockDemo.h */,
+				9903141D1DE40DAB00717672 /* FRWNSConditionLockDemo.m */,
+				9903141F1DE4174700717672 /* FRWPthreadMutexLockDemo.h */,
+				990314201DE4174700717672 /* FRWPthreadMutexLockDemo.m */,
+				990314221DE41C7100717672 /* FRWPthreadMutexRWLockDemo.h */,
+				990314231DE41C7100717672 /* FRWPthreadMutexRWLockDemo.m */,
+				990314281DE44FDB00717672 /* FRWPOSIXConditionsDemo.h */,
+				990314291DE44FDB00717672 /* FRWPOSIXConditionsDemo.m */,
+			);
+			name = NSConditionLock;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,6 +284,7 @@
 			files = (
 				99ABAD391DE2F65600C33C96 /* LaunchScreen.storyboard in Resources */,
 				99ABAD361DE2F65600C33C96 /* Assets.xcassets in Resources */,
+				990314271DE44E0000717672 /* 1.doc in Resources */,
 				99ABAD341DE2F65600C33C96 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,9 +310,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99ABAD5F1DE2F6B700C33C96 /* FRWNSConditionDemo.m in Sources */,
 				99ABAD311DE2F65600C33C96 /* ViewController.m in Sources */,
+				990314211DE4174700717672 /* FRWPthreadMutexLockDemo.m in Sources */,
 				99ABAD2E1DE2F65600C33C96 /* AppDelegate.m in Sources */,
+				9903142A1DE44FDB00717672 /* FRWPOSIXConditionsDemo.m in Sources */,
 				99ABAD2B1DE2F65600C33C96 /* main.m in Sources */,
+				9903141E1DE40DAB00717672 /* FRWNSConditionLockDemo.m in Sources */,
+				990314241DE41C7100717672 /* FRWPthreadMutexRWLockDemo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +466,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = FRWLockDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.freewaying.FRWLockDemo;
@@ -435,6 +478,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = FRWLockDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.freewaying.FRWLockDemo;
@@ -507,6 +551,7 @@
 				99ABAD551DE2F65600C33C96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		99ABAD561DE2F65600C33C96 /* Build configuration list for PBXNativeTarget "FRWLockDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +560,7 @@
 				99ABAD581DE2F65600C33C96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		99ABAD591DE2F65600C33C96 /* Build configuration list for PBXNativeTarget "FRWLockDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +569,7 @@
 				99ABAD5B1DE2F65600C33C96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
