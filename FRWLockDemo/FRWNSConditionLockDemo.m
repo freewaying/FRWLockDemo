@@ -29,7 +29,7 @@
     while (YES) {
         [self.conditionLock lockWhenCondition:0];
         NSLog(@"produce");
-        self.count++;
+        self.count++; // count
         [self.conditionLock unlockWithCondition:1];
     }
 }
